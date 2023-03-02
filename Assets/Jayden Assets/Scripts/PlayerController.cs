@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
+    public GameObject objectToSpawn;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +19,9 @@ public class PlayerController : MonoBehaviour
         float v = Input.GetAxisRaw("Vertical");
         gameObject.transform.position = new Vector2(transform.position.x + (h * moveSpeed),
    transform.position.y + (v * moveSpeed));
+        if (Input.GetMouseButtonDown(0))
+        {
+            Instantiate(objectToSpawn, transform.position, transform.rotation);
+        }
     }
 }
