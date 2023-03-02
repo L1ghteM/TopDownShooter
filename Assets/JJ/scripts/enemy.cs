@@ -38,6 +38,7 @@ public class enemy : MonoBehaviour
         if(target)
         {
             rb.velocity = new Vector2(moveDirection.x, moveDirection.y) * moveSpeed;
+
         }
     }
 }
