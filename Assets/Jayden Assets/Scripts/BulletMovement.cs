@@ -29,6 +29,7 @@ public class BulletMovement : MonoBehaviour
         {
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            GameManager.gm.IncrementScore();
         }
     }
 }
