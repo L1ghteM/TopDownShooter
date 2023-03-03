@@ -321,7 +321,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 58102329c2b46d3408cd5e74d93e3e86, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a115e88c811299d4aa570f6503592afa, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -931,7 +931,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: a3a701c4fc3986446a35946a79948eca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 56b4e5176e98898488949eac08e21826, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1286,6 +1286,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1819269558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 667180390734617847, guid: b22af9557308f9245ae749e869d6b851, type: 3}
+  m_PrefabInstance: {fileID: 542409275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1819269559
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819269558}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1959356351
 GameObject:
   m_ObjectHideFlags: 0
